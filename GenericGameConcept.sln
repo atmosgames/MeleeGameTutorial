@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{89D74DAB-834B-0FCC-8F11-FE5B3E7FC8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{826FC30B-63FE-29B0-94AB-9601810E8E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{DF76B07D-B69B-E341-9BD1-0B3DCCA340B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A3E51E8A-A584-EA9F-935D-AAF3457EB584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{45BEDA35-A236-6110-BAEC-3DB3D6CB12F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{E5B8A9C2-BE2C-E9EA-CD71-D8F9EAA1C5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89D74DAB-834B-0FCC-8F11-FE5B3E7FC8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D74DAB-834B-0FCC-8F11-FE5B3E7FC8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D74DAB-834B-0FCC-8F11-FE5B3E7FC8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D74DAB-834B-0FCC-8F11-FE5B3E7FC8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826FC30B-63FE-29B0-94AB-9601810E8E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826FC30B-63FE-29B0-94AB-9601810E8E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826FC30B-63FE-29B0-94AB-9601810E8E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826FC30B-63FE-29B0-94AB-9601810E8E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF76B07D-B69B-E341-9BD1-0B3DCCA340B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF76B07D-B69B-E341-9BD1-0B3DCCA340B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF76B07D-B69B-E341-9BD1-0B3DCCA340B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF76B07D-B69B-E341-9BD1-0B3DCCA340B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E51E8A-A584-EA9F-935D-AAF3457EB584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E51E8A-A584-EA9F-935D-AAF3457EB584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E51E8A-A584-EA9F-935D-AAF3457EB584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E51E8A-A584-EA9F-935D-AAF3457EB584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BEDA35-A236-6110-BAEC-3DB3D6CB12F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BEDA35-A236-6110-BAEC-3DB3D6CB12F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BEDA35-A236-6110-BAEC-3DB3D6CB12F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BEDA35-A236-6110-BAEC-3DB3D6CB12F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B8A9C2-BE2C-E9EA-CD71-D8F9EAA1C5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B8A9C2-BE2C-E9EA-CD71-D8F9EAA1C5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B8A9C2-BE2C-E9EA-CD71-D8F9EAA1C5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B8A9C2-BE2C-E9EA-CD71-D8F9EAA1C5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

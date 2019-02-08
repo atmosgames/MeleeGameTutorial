@@ -1,0 +1,20 @@
+
+Player.png
+size: 187,187
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Character_Green
+  rotate: false
+  xy: 73, 2
+  size: 69, 183
+  orig: 69, 183
+  offset: 0, 0
+  index: -1
+Character_Orange
+  rotate: false
+  xy: 2, 2
+  size: 69, 183
+  orig: 69, 183
+  offset: 0, 0
+  index: -1

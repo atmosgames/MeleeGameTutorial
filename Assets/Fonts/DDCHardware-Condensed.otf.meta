@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9ce5ce1cd96f1487c8cdd5dfd2745f47
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DDC Hardware
+  fontNames:
+  - DDC Hardware
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5b66b4c4dcea84c38953d2efa42c88ae, type: 3}
+  - {fileID: 12800000, guid: 51656e77843d84513acd7a580bd0aff8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

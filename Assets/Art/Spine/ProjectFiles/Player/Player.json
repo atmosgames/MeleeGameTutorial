@@ -1,0 +1,1 @@
+{"skeleton":{"images":"Layers/"},"bones":[{"name":"root"}],"slots":[	{"name":"Player (Reference)","bone":"root","attachment":"Player (Reference)"}],"skins":{	"default":{		"Player (Reference)":{"Player (Reference)":{"x":35.5,"y":92.5,"width":71,"height":185}}	}},"animations":{"animation":{}}}

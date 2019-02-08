@@ -1,0 +1,221 @@
+{
+"skeleton": { "hash": "5wbbyqgvEwvXleTfjR6WNNHuL5k", "spine": "3.7.87", "width": 69.82, "height": 183.31, "images": "./Layers/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Attack", "parent": "root", "length": 157.5, "rotation": 89.41, "x": -1.02, "y": -1.23 },
+	{ "name": "Parent", "parent": "Attack", "length": 181.8, "rotation": 0.62, "x": 0.54, "y": -1.42 }
+],
+"slots": [
+	{ "name": "Player (Reference)", "bone": "Parent", "dark": "000000", "attachment": "Player (Reference)" }
+],
+"skins": {
+	"default": {},
+	"Enemy": {
+		"Player (Reference)": {
+			"Player (Reference)": { "path": "Character_Green", "x": 91.99, "y": 0.4, "rotation": -90.28, "width": 69, "height": 183 }
+		}
+	},
+	"Player": {
+		"Player (Reference)": {
+			"Player (Reference)": { "path": "Character_Orange", "x": 91.99, "y": 0.4, "rotation": -90.28, "width": 69, "height": 183 }
+		}
+	}
+},
+"events": {
+	"EmitParticles1": {},
+	"PlayStepSound": {}
+},
+"animations": {
+	"Attack": {
+		"bones": {
+			"Attack": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.614,
+						"y": 1.673,
+						"curve": [ 0.483, 0, 0.167, 1 ]
+					},
+					{ "time": 0.1667, "x": 1, "y": 1 }
+				]
+			},
+			"Parent": {
+				"rotate": [
+					{ "time": 0, "angle": -15.08 },
+					{ "time": 0.0667, "angle": 3.43 },
+					{ "time": 0.1333, "angle": -3.67 },
+					{ "time": 0.2, "angle": 0.3 }
+				]
+			}
+		}
+	},
+	"Hurt": {
+		"slots": {
+			"Player (Reference)": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		}
+	},
+	"Jump": {
+		"bones": {
+			"Parent": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.644,
+						"y": 1.653,
+						"curve": [ 0, 0.54, 0.38, 1 ]
+					},
+					{ "time": 1, "x": 0.971, "y": 0.883 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "EmitParticles1" }
+		]
+	},
+	"Land": {
+		"bones": {
+			"Parent": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.0333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.32, 0.435, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.72,
+						"y": 0.41,
+						"curve": [ 0.888, 0, 1, 0.6 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.3667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.41, 0.415, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.34,
+						"y": 0.4,
+						"curve": [ 0.553, 0, 1, 0.75 ]
+					},
+					{ "time": 0.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.832,
+						"y": 1.073,
+						"curve": [ 0.415, 0.44, 0.689, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.232,
+						"y": 1.576,
+						"curve": [ 0, 0.35, 0.517, 1 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 1.215,
+						"y": 1.023,
+						"curve": [ 0.841, 0, 1, 0.81 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.617,
+						"y": 1.659,
+						"curve": [ 0, 0.37, 0.591, 1 ]
+					},
+					{
+						"time": 0.6,
+						"x": 0.987,
+						"y": 0.942,
+						"curve": [ 0.425, 0, 0.742, 0.45 ]
+					},
+					{ "time": 0.6667, "x": 0.832, "y": 1.073 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "EmitParticles1" },
+			{ "time": 0, "name": "PlayStepSound" }
+		]
+	},
+	"Run": {
+		"bones": {
+			"Parent": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.0333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.34, 0.45, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 30.66,
+						"y": 0.07,
+						"curve": [ 0.631, 0, 1, 0.68 ]
+					},
+					{ "time": 0.2667, "x": 0, "y": 0.28 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1.078,
+						"y": 0.834,
+						"curve": [ 0.644, 0.3, 1, 0.73 ]
+					},
+					{
+						"time": 0.0667,
+						"x": 0.79,
+						"y": 1.483,
+						"curve": [ 0, 0.43, 0.567, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.111,
+						"y": 0.796,
+						"curve": [ 0.403, 0, 0.74, 0.42 ]
+					},
+					{ "time": 0.2667, "x": 1.078, "y": 1.054 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "EmitParticles1" },
+			{ "time": 0, "name": "PlayStepSound", "int": 1 }
+		]
+	},
+	"Stand": {
+		"bones": {
+			"Parent": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.975,
+						"y": 1.034,
+						"curve": [ 0.495, 0, 0.482, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.029,
+						"y": 0.976,
+						"curve": [ 0.495, 0, 0.482, 1 ]
+					},
+					{ "time": 1, "x": 0.975, "y": 1.034 }
+				]
+			}
+		}
+	}
+}
+}
